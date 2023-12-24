@@ -19,15 +19,19 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 ```
-x,y=input(),input()
-temp=y
-y=x
-x=temp
-print("Swapped values are:",x,y)
+#Program to swap two values.
+#Developed by:R.DHARSAN KUMAR 
+#RegisterNumber:23014208
+a=input()
+b=input()
+a,b=b,a
+print(f"Swapped values are: {a} {b}")
+
 ```
 
 ## OUTPUT:
-![Screenshot 2023-11-09 112918](https://github.com/DHARSAN23014208/Swapping-two-values/assets/149365413/26a6f5b2-2f4e-4944-8d4e-79ed82986e3b)
+![image](https://github.com/DHARSAN23014208/Swapping-two-values/assets/149365413/600910c3-9c37-40a8-96b1-9be82b94bc8d)
+
 
 
 ## RESULT:
